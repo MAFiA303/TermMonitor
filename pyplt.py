@@ -12,7 +12,7 @@ str = process.decode("utf-8")
 y = re.sub("^(.*?\\+)", "", str)
 y = re.sub(".0°C.*", "", y) 
 
-fpath = "scripts/data-plot.dat"
+fpath = "Downloads/scripts/data-plot.dat"
 f = open(fpath, "a")
 f.write(y)
 f.close()
@@ -37,8 +37,7 @@ fig.show()
 
 
 
-print('\x1b[6;30;42m' + 'Success!' + '\x1b[0m')
-
+# plotting horizontally
 #ek=4
 #for i in range(-30,0,1):
 #    print(y[i],int(ek*(y[i]-min(y)+1/ek))*'*')
