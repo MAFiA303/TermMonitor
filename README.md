@@ -1,7 +1,7 @@
 # TermMonitor
 Monitor laptop from terminal
 
-
+![alt text](https://external-preview.redd.it/DrP4Frol6RhowD6omd3G47iuERRioBvt1fAqxgY5tFc.png?width=640&crop=smart&format=pjpg&auto=webp&s=b14b4f9e2a9f2faabf2024d391472708ecbc7797)
 
 Using a mixure of bash and python, you can observe laptop's temperature from the terminal.
 First lets make sure you go the dependencies:
