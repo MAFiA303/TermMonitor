@@ -94,6 +94,7 @@ fig.show()
 
 The has little more things, you can download and run the code if you dont want to DIY.
 
+# Terminal
 To run from terminal, I will use `watch`. I will also add `-c` to the python code to run from console:
 ```terminal
 watch -n1 --color python3 Downloads/scripts/pyplt.py -c
